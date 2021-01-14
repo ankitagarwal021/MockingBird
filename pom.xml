@@ -77,11 +77,11 @@
             <artifactId>spring-kafka</artifactId>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>io.confluent</groupId>
             <artifactId>kafka-avro-serializer</artifactId>
             <version>5.2.2</version>
-        </dependency>
+        </dependency>-->
 
         <!-- https://mvnrepository.com/artifact/javax.jms/jms -->
         <dependency>
