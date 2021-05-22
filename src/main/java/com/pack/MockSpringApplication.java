@@ -12,7 +12,8 @@ import org.springframework.context.annotation.Import;
  **/
 
 @Import({AppConfig.class, MongoConfig.class, InterceptorConfig.class})
-@SpringBootApplication(scanBasePackages = {"com.pack","com.pack.controller","com.pack.handler","com.pack.repository"})
+@SpringBootApplication(scanBasePackages = {"com.pack","com.pack.controller","com.pack.handler","com.pack.repository",
+                "com.service"})
 public class MockSpringApplication {
 
     public static void main(String[] args){
